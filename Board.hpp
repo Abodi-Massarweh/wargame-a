@@ -6,6 +6,7 @@
 #define WARGAME_A_BOARD_HPP
 #include<vector>
 #include "Soldier.hpp"
+#include <stdexcept>
 class Board {
     std::vector<std::vector<Soldier*>> board;
 public:
