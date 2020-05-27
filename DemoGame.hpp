@@ -8,8 +8,8 @@
  * @since  2020-05
  */
 
+#include <sys/types.h>
 #include "Board.hpp"
-
 namespace WarGame {
 	class DemoGame {
 	 private:

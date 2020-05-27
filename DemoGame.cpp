@@ -10,6 +10,8 @@
 #include "DemoGame.hpp"
 #include "FootSoldier.hpp"
 #include "FootCommander.hpp"
+#include "Soldier.hpp"
+
 
 #include <cassert>
 
@@ -59,6 +61,8 @@ namespace WarGame {
 					if (soldier)
 						delete soldier;
 				}
+
+				board[{1,2}];
 			}
 		}
 

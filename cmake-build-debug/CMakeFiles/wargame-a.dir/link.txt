@@ -1,0 +1,1 @@
+/usr/bin/clang++-9  -g   CMakeFiles/wargame-a.dir/Test.cpp.o CMakeFiles/wargame-a.dir/Board.cpp.o CMakeFiles/wargame-a.dir/FootCommander.cpp.o CMakeFiles/wargame-a.dir/FootSoldier.cpp.o CMakeFiles/wargame-a.dir/Paramedic.cpp.o CMakeFiles/wargame-a.dir/ParamedicCommander.cpp.o CMakeFiles/wargame-a.dir/Sniper.cpp.o CMakeFiles/wargame-a.dir/SniperCommander.cpp.o  -o wargame-a 
