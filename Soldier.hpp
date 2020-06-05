@@ -5,12 +5,21 @@
 #ifndef WARGAME_A_SOLDIER_HPP
 #define WARGAME_A_SOLDIER_HPP
 
+#include <cstdio>
 
+class Board;
 class Soldier {
-size_t m_hp;
+
 public:
-    explicit Soldier(int health):m_hp(health){}
+    explicit Soldier(size_t id,int health):m_id(id),m_hp(health){}
+    virtual void special_move(std::vector<std::vector<Soldier*>>& vec, std::pair<int,int> a)=0;
+    void hit(int dmg){m_hp-=dmg;}
+    virtual void heal(){}
     virtual ~Soldier(){}
+
+    size_t m_id;
+protected:
+    size_t m_hp;
 };
 
 

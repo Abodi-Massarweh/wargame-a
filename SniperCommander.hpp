@@ -13,7 +13,9 @@ class SniperCommander: public Sniper {
     static  const  size_t  s_damage=100;
 
 public:
-    SniperCommander():Sniper(s_health,s_damage){}
+    SniperCommander(size_t id):Sniper(id,s_health,s_damage){}
+    virtual void  special_move(std::vector<std::vector<Soldier*>>& vec,std::pair<int,int> pair);
+    virtual void heal(){this->m_hp=s_health;}
     virtual ~SniperCommander()=default;
 
 };

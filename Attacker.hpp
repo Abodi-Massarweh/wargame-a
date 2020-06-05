@@ -11,7 +11,7 @@ class Attacker: public Soldier
 {
     size_t m_damage;
 
-public: Attacker(size_t dmg,size_t health):m_damage(dmg), Soldier(health){}
+public: Attacker(size_t id,size_t dmg,size_t health):Soldier(id,health),m_damage(dmg){}
     virtual ~Attacker(){}
 };
 

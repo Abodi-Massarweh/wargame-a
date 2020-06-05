@@ -11,7 +11,8 @@
 class ParamedicCommander : public Paramedic{
 static const size_t s_max_health=200;
 public:
-    ParamedicCommander():Paramedic(s_max_health){}
+    ParamedicCommander(size_t id):Paramedic(id,s_max_health){}
+    virtual void special_move(std::vector<std::vector<Soldier*>>& vec, std::pair<int,int> a);
     virtual ~ParamedicCommander()=default;
 
 };

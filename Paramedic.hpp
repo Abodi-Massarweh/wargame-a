@@ -13,7 +13,8 @@ class Paramedic : public Healer {
     static const size_t s_health_amount=200;
 
 public:
-    Paramedic(int max_health=100):Healer(s_health_amount,max_health){}
+    virtual void special_move(std::vector<std::vector<Soldier*>>& vec, std::pair<int,int> a);
+    Paramedic(size_t id,int max_health=100):Healer(id,s_health_amount,max_health){}
     virtual ~Paramedic(){}
 
 };

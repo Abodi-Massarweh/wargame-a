@@ -13,8 +13,10 @@ static const size_t s_initial_health=150;
     static const size_t s_damage_per=20;
 
 public:
-    FootCommander():FootSoldier(s_initial_health,s_damage_per){}
+    FootCommander(size_t id):FootSoldier(id,s_initial_health,s_damage_per){}
+    virtual void heal(){this->m_hp=s_initial_health;}
     virtual~FootCommander(){}
+    virtual void special_move(std::vector<std::vector<Soldier*>>& ,std::pair<int,int> a);
 
 };
 
