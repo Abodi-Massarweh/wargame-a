@@ -119,18 +119,14 @@ public:
                 n_i=a.first;
                 n_j=a.second+1;
         }
-        board[n_j][n_j]->special_move(this->board,a);
+        board[n_j][n_j]->special_move(this->board,{n_i,n_j});
 
 
 
     }
     ~Board(){
-        for (int i = 0; i <board.size() ; ++i) {
-            for (int j = 0; j <board[i].size() ; ++j) {
-                    delete board[i][j];
-            }
-        }
-        board.clear();
+
+
     }
 };
 

@@ -69,7 +69,8 @@ namespace WarGame {
 }
 int main()
 {
-
+ WarGame::DemoGame a;
+ a.play();
 
     return 0;
 }

@@ -12,10 +12,6 @@ cstdio
 Soldier.hpp
 /home/abodi/CLionProjects/wargame-a/Soldier.hpp
 
-/home/abodi/CLionProjects/wargame-a/Board.cpp
-Board.hpp
-/home/abodi/CLionProjects/wargame-a/Board.hpp
-
 /home/abodi/CLionProjects/wargame-a/Board.hpp
 vector
 -
@@ -48,19 +44,9 @@ sys/types.h
 Board.hpp
 /home/abodi/CLionProjects/wargame-a/Board.hpp
 
-/home/abodi/CLionProjects/wargame-a/FootCommander.cpp
-FootCommander.hpp
-/home/abodi/CLionProjects/wargame-a/FootCommander.hpp
-
 /home/abodi/CLionProjects/wargame-a/FootCommander.hpp
 FootSoldier.hpp
 /home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
-
-/home/abodi/CLionProjects/wargame-a/FootSoldier.cpp
-FootSoldier.hpp
-/home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
-cmath
--
 
 /home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
 utility
