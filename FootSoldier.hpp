@@ -18,7 +18,9 @@ public:
     virtual void special_move(std::vector<std::vector<Soldier*>>& ,std::pair<int,int> a);
     virtual ~FootSoldier()=default;
     virtual void heal(){this->m_hp=s_full_hp;}
-    Soldier *&find_closest(std::vector<std::vector<Soldier *>> board, std::pair<int, int> pair);
+    static Soldier *find_closest(std::vector<std::vector<Soldier *>>& board, std::pair<int, int> pair);
+
+
 };
 
 

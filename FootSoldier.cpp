@@ -13,7 +13,7 @@
     return;
 }
 
-Soldier *& find_closest(std::vector<std::vector<Soldier*>>& board, std::pair<int, int> pair) {
+Soldier * FootSoldier::find_closest(std::vector<std::vector<Soldier*>>& board, std::pair<int, int> pair) {
     size_t i= pair.first;
     size_t j=pair.second;
     size_t distance=3000;

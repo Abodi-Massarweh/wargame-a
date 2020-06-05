@@ -3,9 +3,10 @@
 //
 
 #include "Sniper.hpp"
-Soldier*& Sniper::find_healthiest(std::vector<std::vector<Soldier*>>& vec,std::pair<int,int >pair)
+Soldier* Sniper::find_healthiest(std::vector<std::vector<Soldier*>>& vec,std::pair<int,int >pair)
 {
     size_t health=0;
+
     Soldier* healthiest=NULL;
     size_t my_id=vec[pair.first][pair.second]->m_id;
     for (int i = 0; i <vec.size() ; ++i) {

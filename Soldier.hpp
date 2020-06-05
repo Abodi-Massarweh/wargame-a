@@ -6,7 +6,7 @@
 #define WARGAME_A_SOLDIER_HPP
 
 #include <cstdio>
-
+#include <vector>
 class Board;
 class Soldier {
 
@@ -18,7 +18,6 @@ public:
     virtual ~Soldier(){}
 
     size_t m_id;
-protected:
     size_t m_hp;
 };
 
