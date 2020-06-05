@@ -57,18 +57,18 @@ include CMakeFiles/wargame-a.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wargame-a.dir/flags.make
 
-CMakeFiles/wargame-a.dir/Test.cpp.o: CMakeFiles/wargame-a.dir/flags.make
-CMakeFiles/wargame-a.dir/Test.cpp.o: ../Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abodi/CLionProjects/wargame-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wargame-a.dir/Test.cpp.o"
-	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wargame-a.dir/Test.cpp.o -c /home/abodi/CLionProjects/wargame-a/Test.cpp
+CMakeFiles/wargame-a.dir/DemoGame.cpp.o: CMakeFiles/wargame-a.dir/flags.make
+CMakeFiles/wargame-a.dir/DemoGame.cpp.o: ../DemoGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abodi/CLionProjects/wargame-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wargame-a.dir/DemoGame.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wargame-a.dir/DemoGame.cpp.o -c /home/abodi/CLionProjects/wargame-a/DemoGame.cpp
 
-CMakeFiles/wargame-a.dir/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wargame-a.dir/Test.cpp.i"
-	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abodi/CLionProjects/wargame-a/Test.cpp > CMakeFiles/wargame-a.dir/Test.cpp.i
+CMakeFiles/wargame-a.dir/DemoGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wargame-a.dir/DemoGame.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abodi/CLionProjects/wargame-a/DemoGame.cpp > CMakeFiles/wargame-a.dir/DemoGame.cpp.i
 
-CMakeFiles/wargame-a.dir/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wargame-a.dir/Test.cpp.s"
-	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abodi/CLionProjects/wargame-a/Test.cpp -o CMakeFiles/wargame-a.dir/Test.cpp.s
+CMakeFiles/wargame-a.dir/DemoGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wargame-a.dir/DemoGame.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abodi/CLionProjects/wargame-a/DemoGame.cpp -o CMakeFiles/wargame-a.dir/DemoGame.cpp.s
 
 CMakeFiles/wargame-a.dir/Board.cpp.o: CMakeFiles/wargame-a.dir/flags.make
 CMakeFiles/wargame-a.dir/Board.cpp.o: ../Board.cpp
@@ -161,21 +161,35 @@ CMakeFiles/wargame-a.dir/SniperCommander.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wargame-a.dir/SniperCommander.cpp.s"
 	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abodi/CLionProjects/wargame-a/SniperCommander.cpp -o CMakeFiles/wargame-a.dir/SniperCommander.cpp.s
 
+CMakeFiles/wargame-a.dir/Healer.cpp.o: CMakeFiles/wargame-a.dir/flags.make
+CMakeFiles/wargame-a.dir/Healer.cpp.o: ../Healer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abodi/CLionProjects/wargame-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/wargame-a.dir/Healer.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wargame-a.dir/Healer.cpp.o -c /home/abodi/CLionProjects/wargame-a/Healer.cpp
+
+CMakeFiles/wargame-a.dir/Healer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wargame-a.dir/Healer.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abodi/CLionProjects/wargame-a/Healer.cpp > CMakeFiles/wargame-a.dir/Healer.cpp.i
+
+CMakeFiles/wargame-a.dir/Healer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wargame-a.dir/Healer.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abodi/CLionProjects/wargame-a/Healer.cpp -o CMakeFiles/wargame-a.dir/Healer.cpp.s
+
 # Object files for target wargame-a
 wargame__a_OBJECTS = \
-"CMakeFiles/wargame-a.dir/Test.cpp.o" \
+"CMakeFiles/wargame-a.dir/DemoGame.cpp.o" \
 "CMakeFiles/wargame-a.dir/Board.cpp.o" \
 "CMakeFiles/wargame-a.dir/FootCommander.cpp.o" \
 "CMakeFiles/wargame-a.dir/FootSoldier.cpp.o" \
 "CMakeFiles/wargame-a.dir/Paramedic.cpp.o" \
 "CMakeFiles/wargame-a.dir/ParamedicCommander.cpp.o" \
 "CMakeFiles/wargame-a.dir/Sniper.cpp.o" \
-"CMakeFiles/wargame-a.dir/SniperCommander.cpp.o"
+"CMakeFiles/wargame-a.dir/SniperCommander.cpp.o" \
+"CMakeFiles/wargame-a.dir/Healer.cpp.o"
 
 # External object files for target wargame-a
 wargame__a_EXTERNAL_OBJECTS =
 
-wargame-a: CMakeFiles/wargame-a.dir/Test.cpp.o
+wargame-a: CMakeFiles/wargame-a.dir/DemoGame.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/Board.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/FootCommander.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/FootSoldier.cpp.o
@@ -183,9 +197,10 @@ wargame-a: CMakeFiles/wargame-a.dir/Paramedic.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/ParamedicCommander.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/Sniper.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/SniperCommander.cpp.o
+wargame-a: CMakeFiles/wargame-a.dir/Healer.cpp.o
 wargame-a: CMakeFiles/wargame-a.dir/build.make
 wargame-a: CMakeFiles/wargame-a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abodi/CLionProjects/wargame-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable wargame-a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abodi/CLionProjects/wargame-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable wargame-a"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wargame-a.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

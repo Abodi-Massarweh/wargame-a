@@ -67,3 +67,9 @@ namespace WarGame {
 		}
 
 }
+int main()
+{
+
+
+    return 0;
+}

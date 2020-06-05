@@ -86,10 +86,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/abodi/CLionProjects/wargame-a/Attacker.hpp">
+			<Option target="wargame-a"/>
+		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/Board.cpp">
 			<Option target="wargame-a"/>
 		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/Board.hpp">
+			<Option target="wargame-a"/>
+		</Unit>
+		<Unit filename="/home/abodi/CLionProjects/wargame-a/DemoGame.cpp">
+			<Option target="wargame-a"/>
+		</Unit>
+		<Unit filename="/home/abodi/CLionProjects/wargame-a/DemoGame.hpp">
 			<Option target="wargame-a"/>
 		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/FootCommander.cpp">
@@ -102,6 +111,12 @@
 			<Option target="wargame-a"/>
 		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/FootSoldier.hpp">
+			<Option target="wargame-a"/>
+		</Unit>
+		<Unit filename="/home/abodi/CLionProjects/wargame-a/Healer.cpp">
+			<Option target="wargame-a"/>
+		</Unit>
+		<Unit filename="/home/abodi/CLionProjects/wargame-a/Healer.hpp">
 			<Option target="wargame-a"/>
 		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/Paramedic.cpp">
@@ -126,9 +141,6 @@
 			<Option target="wargame-a"/>
 		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/SniperCommander.hpp">
-			<Option target="wargame-a"/>
-		</Unit>
-		<Unit filename="/home/abodi/CLionProjects/wargame-a/Test.cpp">
 			<Option target="wargame-a"/>
 		</Unit>
 		<Unit filename="/home/abodi/CLionProjects/wargame-a/doctest.h">

@@ -6,63 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/abodi/CLionProjects/wargame-a/Board.cpp
-Board.hpp
-/home/abodi/CLionProjects/wargame-a/Board.hpp
-
 /home/abodi/CLionProjects/wargame-a/Board.hpp
 vector
 -
 Soldier.hpp
 /home/abodi/CLionProjects/wargame-a/Soldier.hpp
+stdexcept
+-
 
-/home/abodi/CLionProjects/wargame-a/FootCommander.cpp
+/home/abodi/CLionProjects/wargame-a/DemoGame.cpp
+DemoGame.hpp
+/home/abodi/CLionProjects/wargame-a/DemoGame.hpp
+FootSoldier.hpp
+/home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
 FootCommander.hpp
 /home/abodi/CLionProjects/wargame-a/FootCommander.hpp
+Soldier.hpp
+/home/abodi/CLionProjects/wargame-a/Soldier.hpp
+cassert
+-
+
+/home/abodi/CLionProjects/wargame-a/DemoGame.hpp
+sys/types.h
+-
+Board.hpp
+/home/abodi/CLionProjects/wargame-a/Board.hpp
 
 /home/abodi/CLionProjects/wargame-a/FootCommander.hpp
 FootSoldier.hpp
 /home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
 
-/home/abodi/CLionProjects/wargame-a/FootSoldier.cpp
-FootSoldier.hpp
-/home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
-
 /home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
 Soldier.hpp
 /home/abodi/CLionProjects/wargame-a/Soldier.hpp
-
-/home/abodi/CLionProjects/wargame-a/Paramedic.cpp
-Paramedic.hpp
-/home/abodi/CLionProjects/wargame-a/Paramedic.hpp
-
-/home/abodi/CLionProjects/wargame-a/Paramedic.hpp
-Soldier.hpp
-/home/abodi/CLionProjects/wargame-a/Soldier.hpp
-
-/home/abodi/CLionProjects/wargame-a/ParamedicCommander.cpp
-ParamedicCommander.hpp
-/home/abodi/CLionProjects/wargame-a/ParamedicCommander.hpp
-
-/home/abodi/CLionProjects/wargame-a/ParamedicCommander.hpp
-Paramedic.hpp
-/home/abodi/CLionProjects/wargame-a/Paramedic.hpp
-
-/home/abodi/CLionProjects/wargame-a/Sniper.cpp
-Sniper.hpp
-/home/abodi/CLionProjects/wargame-a/Sniper.hpp
-
-/home/abodi/CLionProjects/wargame-a/Sniper.hpp
-Soldier.hpp
-/home/abodi/CLionProjects/wargame-a/Soldier.hpp
-
-/home/abodi/CLionProjects/wargame-a/SniperCommander.cpp
-SniperCommander.hpp
-/home/abodi/CLionProjects/wargame-a/SniperCommander.hpp
-
-/home/abodi/CLionProjects/wargame-a/SniperCommander.hpp
-Sniper.hpp
-/home/abodi/CLionProjects/wargame-a/Sniper.hpp
 
 /home/abodi/CLionProjects/wargame-a/Soldier.hpp
 

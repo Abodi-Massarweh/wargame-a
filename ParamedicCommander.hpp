@@ -9,10 +9,10 @@
 #include "Paramedic.hpp"
 
 class ParamedicCommander : public Paramedic{
-    int x;
-
+static const size_t s_max_health=200;
 public:
-    ParamedicCommander(int val=0):x(val){}
+    ParamedicCommander():Paramedic(s_max_health){}
+    virtual ~ParamedicCommander()=default;
 
 };
 

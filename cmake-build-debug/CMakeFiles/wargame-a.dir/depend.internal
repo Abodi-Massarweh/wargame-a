@@ -5,6 +5,13 @@ CMakeFiles/wargame-a.dir/Board.cpp.o
  /home/abodi/CLionProjects/wargame-a/Board.cpp
  /home/abodi/CLionProjects/wargame-a/Board.hpp
  /home/abodi/CLionProjects/wargame-a/Soldier.hpp
+CMakeFiles/wargame-a.dir/DemoGame.cpp.o
+ /home/abodi/CLionProjects/wargame-a/Board.hpp
+ /home/abodi/CLionProjects/wargame-a/DemoGame.cpp
+ /home/abodi/CLionProjects/wargame-a/DemoGame.hpp
+ /home/abodi/CLionProjects/wargame-a/FootCommander.hpp
+ /home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
+ /home/abodi/CLionProjects/wargame-a/Soldier.hpp
 CMakeFiles/wargame-a.dir/FootCommander.cpp.o
  /home/abodi/CLionProjects/wargame-a/FootCommander.cpp
  /home/abodi/CLionProjects/wargame-a/FootCommander.hpp
@@ -32,14 +39,3 @@ CMakeFiles/wargame-a.dir/SniperCommander.cpp.o
  /home/abodi/CLionProjects/wargame-a/SniperCommander.cpp
  /home/abodi/CLionProjects/wargame-a/SniperCommander.hpp
  /home/abodi/CLionProjects/wargame-a/Soldier.hpp
-CMakeFiles/wargame-a.dir/Test.cpp.o
- /home/abodi/CLionProjects/wargame-a/Board.hpp
- /home/abodi/CLionProjects/wargame-a/FootCommander.hpp
- /home/abodi/CLionProjects/wargame-a/FootSoldier.hpp
- /home/abodi/CLionProjects/wargame-a/Paramedic.hpp
- /home/abodi/CLionProjects/wargame-a/ParamedicCommander.hpp
- /home/abodi/CLionProjects/wargame-a/Sniper.hpp
- /home/abodi/CLionProjects/wargame-a/SniperCommander.hpp
- /home/abodi/CLionProjects/wargame-a/Soldier.hpp
- /home/abodi/CLionProjects/wargame-a/Test.cpp
- /home/abodi/CLionProjects/wargame-a/doctest.h

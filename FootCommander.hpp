@@ -9,10 +9,12 @@
 #include "FootSoldier.hpp"
 
 class FootCommander: public FootSoldier {
-int x;
+static const size_t s_initial_health=150;
+    static const size_t s_damage_per=20;
 
 public:
-    FootCommander(int val=0):x(val){}
+    FootCommander():FootSoldier(s_initial_health,s_damage_per){}
+    virtual~FootCommander(){}
 
 };
 

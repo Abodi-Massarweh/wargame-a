@@ -150,6 +150,33 @@ Board.cpp.s:
 	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
+DemoGame.o: DemoGame.cpp.o
+
+.PHONY : DemoGame.o
+
+# target to build an object file
+DemoGame.cpp.o:
+	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/DemoGame.cpp.o
+.PHONY : DemoGame.cpp.o
+
+DemoGame.i: DemoGame.cpp.i
+
+.PHONY : DemoGame.i
+
+# target to preprocess a source file
+DemoGame.cpp.i:
+	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/DemoGame.cpp.i
+.PHONY : DemoGame.cpp.i
+
+DemoGame.s: DemoGame.cpp.s
+
+.PHONY : DemoGame.s
+
+# target to generate assembly for a file
+DemoGame.cpp.s:
+	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/DemoGame.cpp.s
+.PHONY : DemoGame.cpp.s
+
 FootCommander.o: FootCommander.cpp.o
 
 .PHONY : FootCommander.o
@@ -203,6 +230,33 @@ FootSoldier.s: FootSoldier.cpp.s
 FootSoldier.cpp.s:
 	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/FootSoldier.cpp.s
 .PHONY : FootSoldier.cpp.s
+
+Healer.o: Healer.cpp.o
+
+.PHONY : Healer.o
+
+# target to build an object file
+Healer.cpp.o:
+	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Healer.cpp.o
+.PHONY : Healer.cpp.o
+
+Healer.i: Healer.cpp.i
+
+.PHONY : Healer.i
+
+# target to preprocess a source file
+Healer.cpp.i:
+	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Healer.cpp.i
+.PHONY : Healer.cpp.i
+
+Healer.s: Healer.cpp.s
+
+.PHONY : Healer.s
+
+# target to generate assembly for a file
+Healer.cpp.s:
+	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Healer.cpp.s
+.PHONY : Healer.cpp.s
 
 Paramedic.o: Paramedic.cpp.o
 
@@ -312,33 +366,6 @@ SniperCommander.cpp.s:
 	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/SniperCommander.cpp.s
 .PHONY : SniperCommander.cpp.s
 
-Test.o: Test.cpp.o
-
-.PHONY : Test.o
-
-# target to build an object file
-Test.cpp.o:
-	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Test.cpp.o
-.PHONY : Test.cpp.o
-
-Test.i: Test.cpp.i
-
-.PHONY : Test.i
-
-# target to preprocess a source file
-Test.cpp.i:
-	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Test.cpp.i
-.PHONY : Test.cpp.i
-
-Test.s: Test.cpp.s
-
-.PHONY : Test.s
-
-# target to generate assembly for a file
-Test.cpp.s:
-	$(MAKE) -f CMakeFiles/wargame-a.dir/build.make CMakeFiles/wargame-a.dir/Test.cpp.s
-.PHONY : Test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -351,12 +378,18 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
+	@echo "... DemoGame.o"
+	@echo "... DemoGame.i"
+	@echo "... DemoGame.s"
 	@echo "... FootCommander.o"
 	@echo "... FootCommander.i"
 	@echo "... FootCommander.s"
 	@echo "... FootSoldier.o"
 	@echo "... FootSoldier.i"
 	@echo "... FootSoldier.s"
+	@echo "... Healer.o"
+	@echo "... Healer.i"
+	@echo "... Healer.s"
 	@echo "... Paramedic.o"
 	@echo "... Paramedic.i"
 	@echo "... Paramedic.s"
@@ -369,9 +402,6 @@ help:
 	@echo "... SniperCommander.o"
 	@echo "... SniperCommander.i"
 	@echo "... SniperCommander.s"
-	@echo "... Test.o"
-	@echo "... Test.i"
-	@echo "... Test.s"
 .PHONY : help
 
 

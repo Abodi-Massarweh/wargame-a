@@ -6,11 +6,15 @@
 #define WARGAME_A_PARAMEDIC_HPP
 
 #include "Soldier.hpp"
-class Paramedic : public Soldier {
-    int x;
+#include "Healer.hpp"
+
+class Paramedic : public Healer {
+    static const size_t s_max_health=100;
+    static const size_t s_health_amount=200;
 
 public:
-    Paramedic(int val=0):x(val){}
+    Paramedic(int max_health=100):Healer(s_health_amount,max_health){}
+    virtual ~Paramedic(){}
 
 };
 

@@ -9,10 +9,12 @@
 #include "Sniper.hpp"
 
 class SniperCommander: public Sniper {
-    int x;
+    static const size_t s_health=120;
+    static  const  size_t  s_damage=100;
 
 public:
-    SniperCommander(int val=0):x(val){}
+    SniperCommander():Sniper(s_health,s_damage){}
+    virtual ~SniperCommander()=default;
 
 };
 

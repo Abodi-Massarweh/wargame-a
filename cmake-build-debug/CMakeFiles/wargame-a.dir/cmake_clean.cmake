@@ -1,12 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wargame-a.dir/Board.cpp.o"
+  "CMakeFiles/wargame-a.dir/DemoGame.cpp.o"
   "CMakeFiles/wargame-a.dir/FootCommander.cpp.o"
   "CMakeFiles/wargame-a.dir/FootSoldier.cpp.o"
+  "CMakeFiles/wargame-a.dir/Healer.cpp.o"
   "CMakeFiles/wargame-a.dir/Paramedic.cpp.o"
   "CMakeFiles/wargame-a.dir/ParamedicCommander.cpp.o"
   "CMakeFiles/wargame-a.dir/Sniper.cpp.o"
   "CMakeFiles/wargame-a.dir/SniperCommander.cpp.o"
-  "CMakeFiles/wargame-a.dir/Test.cpp.o"
   "wargame-a"
   "wargame-a.pdb"
 )

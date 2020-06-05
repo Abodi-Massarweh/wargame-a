@@ -7,9 +7,10 @@
 
 
 class Soldier {
-int x;
+size_t m_hp;
 public:
-    Soldier(int val=0):x(val){}
+    explicit Soldier(int health):m_hp(health){}
+    virtual ~Soldier(){}
 };
 
 
